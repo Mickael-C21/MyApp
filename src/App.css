@@ -1,0 +1,64 @@
+
+/* Fond général */
+body {
+  background-color : #6a5cff;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+/* Carte principale */
+.calculator-box {
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
+  padding: 40px;
+  text-align: center;
+  color: white;
+  width: 350px;
+  background-color: #5f6cff;
+}
+
+/* Formulaire intérieur */
+.form-box {
+  margin-top: 20px;
+  padding: 25px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Inputs et select */
+.form-box select,
+.form-box input {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+}
+
+/* Bouton noir */
+.form-box button {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #111;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-box button:hover {
+  background: #222;
+}
+
+/* Résultat */
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
