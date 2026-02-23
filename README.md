@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TP-Web – Calculatrice React
 
 Application web simple réalisée avec React et Vite.  
@@ -111,3 +112,7 @@ TP-Web/
 ## Auteur
 Mickaël TSOUMBOU
 Projet réalisé dans le cadre du TP-Web.
+=======
+# MyApp
+calculatrice
+>>>>>>> a9a14ba23f83c249c7a2ecf5c64f18f401068a30
